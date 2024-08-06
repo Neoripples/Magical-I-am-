@@ -1,0 +1,14 @@
+.header_top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.footer_set{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.maindiv{
+    background-image: url(/images/Background_Image.jpg);
+}

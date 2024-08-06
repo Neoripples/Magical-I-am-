@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition-duration: .3s;
+}
+
+* a{
+    text-decoration: none;
+}
+
+.footerdiv{
+    background-color: #57876A;
+    display: flex;
+    padding: 35px 120px;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.address{
+    min-width: 25%;
+}
+
+.address h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.address a{
+    color: white;
+    font-size: 14px;
+}
+
+.address a:hover{
+    color: #ff9717;
+}
+
+.main_menu{
+    color: white;
+}
+
+.main_menu{
+    min-width: 25%;
+}
+
+.main_menu h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.main_menu ul li{
+    list-style: none;
+}
+
+.main_menu ul li a{
+    color: white;
+    font-size: 14px;
+}
+
+.main_menu ul li a:hover{
+    color: #ff9717;
+}
+
+.quick_links h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.quick_links ul li{
+    list-style: none;
+}
+
+.quick_links ul li a{
+    color: white;
+    font-size: 14px;
+}
+
+.quick_links ul li a:hover{
+    color: #ff9717;
+}
+
+.quick_links{
+    min-width: 25%;
+}
+
+.footer_follow{
+    font-family: poppins;
+}
+.wp-block-button:hover{
+	background-color: white;
+	color:#272727;
+}
+
+.button_news{
+	background-color:#57876A;
+	border-radius: 5px 0px 0px 5px;
+	border: solid 1px white;
+	margin-right:-2px;
+}
+
+.button_news a{
+	color:white;
+	font-weight: 500;	
+	font-size: 15px;
+}
+
+.button_news a:hover{
+		text-decoration:underline;
+}
+
+.follow_text a{
+    margin:5px;
+}
+
+.footer_buttons{
+	display: flex;
+	align-items:left;
+}
+
+.follow_text{
+	display:flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.follow_text h2{
+	padding-right: 10px;
+	font-weight:600;
+}
+
+.fotter_lastsec{
+	color:white;
+	text-align: left;
+	font-size: 15px;
+}
+
+.fotter_lastsec a{
+	color:white;
+}
+
+.fotter_lastsec a:hover{
+	color:#ff9717;
+}
+
+@media screen and (max-width: 600px) {
+
+    .footerdiv{
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    .main_menu h2{
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    .quick_links h2{
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    .fotter_lastsec{
+	font-size: 13px;
+}
+
+    .footer_follow{
+        margin-top: 20px;
+    }
+	
+	.button_news a{
+	color:white;
+	font-weight: 500;	
+	font-size: 13px;
+}
+
+.button_sign a{
+		font-weight: 500;
+		font-size: 13px;
+}
+	
+.follow_text h2{
+	font-size: 20px;
+	padding-right: 10px;
+	font-weight:600;
+}
+	
+}

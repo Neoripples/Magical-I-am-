@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    transition: all .2s linear;
+}
+
+body{
+    background-image: url(/images/Background_Image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+* a{
+    text-decoration: none;
+    color: #242424;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+nav{
+    display: flex;
+    text-decoration: none;
+    transition: all .2s linear;
+    padding: 10px 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbars{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    min-height: 90px;
+}
+
+.menu_btn{
+    display: flex;
+}
+
+ul{
+    margin: auto;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 0 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    color: #ff9717;
+}
+
+.menu_btn button{
+    padding: 10px 20px;
+    border: solid 2px #242424;
+    border-radius: 25px;
+    margin-left: 20px;
+    background-color: #ffffff00;
+}
+
+.menu_btn button:hover{
+    color: #fff;
+    background-color: #57876A;
+    border-color: #57876A;
+}
+
+.menu_btn button a:hover{
+    color: #fff;
+}
+
+.hero_sec_signup{
+    background-image: url(/images/signup-Page-Banner.png);
+    height: 120vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero_sec_login{
+    background-image: url(/images/Login-Page-Banner.png);
+    height: 120vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero_sec_redeem{
+    background-image: url(/images/Redeem-Page-Banner.png);
+    height: 120vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.form_sect{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_sect h2{
+    font-family: Laila;
+    font-weight: 700;
+    font-size: 28px;
+    color: #3D3D3D;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.form_sect h3{
+    font-family: Laila;
+    font-weight: 700;
+    font-size: 36px;
+    color: #3D3D3D;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.form_login h4{
+    color: #2E873E;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+ .form_login .field{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: solid 1px #242424;
+    background-color: #ffffff00;
+    font-family: Poppins;
+    Font-size: 16px;
+}
+
+.sub_btn{
+    width: 100%;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 2px #242424;
+    background-color: #ffffff00;
+    font-family: Poppins;
+    Font-size: 16px;
+    font-weight: 600;
+}
+
+.form_sect p{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*footer Css*/
+
+.footer_part{
+    display: flex;
+    background-color: #57876A;
+    flex-wrap: wrap;
+    text-decoration: none;
+    transition: all .2s linear;
+    padding: 50px;
+    margin: 0px;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.footer_part a{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer_part h2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer_part ul li{
+    list-style: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_part a:hover{
+	color:#ff9717;
+}
+
+.button_news{
+	background-color:#57876A;
+	border-radius: 5px 0px 0px 5px;
+	border: solid 1px white;
+	margin-right:-2px;
+    padding: 5px 10px;
+}
+
+.button_news a{
+	color:white;
+	font-weight: 500;	
+	font-size: 18px;
+    font-family: Poppins;
+}
+
+.button_news a:hover{
+		text-decoration:underline;
+}
+
+.button_news:hover{
+	background-color:#57876A;
+}
+
+.button_sign{
+	color:#fff;
+	background-color:#fff; 
+	border-radius: 0 5px 5px 0; 
+	border: solid 1px #fff;
+    padding: 5px 10px;
+	}
+
+.button_sign a{
+		font-weight: 500;
+		font-size: 15px;
+}
+
+.button_sign a:hover{
+		text-decoration:underline;
+}
+
+.footer_buttons{
+	display: flex;
+	align-items:left;
+}
+
+
+.follow_text{
+	display:flex;
+	margin-bottom: 15px;
+    
+}
+
+.follow_text h2{
+	padding-right: 10px;
+	font-weight:600;
+}
+
+.fotter_lastsec{
+	color:white;
+	text-align: left;
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+.fotter_lastsec a{
+	color:white;
+}
+
+.fotter_lastsec a:hover{
+	color:#ff9717;
+}
+
+.lastline_credit{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 635px) {
+.fotter_lastsec{
+	font-size: 13px;
+}
+.footer_part{
+    display: flex;
+    flex-direction: column;
+}
+}
+	
+	.button_news a{
+	color:white;
+	font-weight: 500;	
+	font-size: 13px;
+}
+
+.button_sign a{
+		font-weight: 500;
+		font-size: 13px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+/*Redeem Page Extra Css */
+
+.redeem_above p{
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #242424;
+}
+
+.redeem_above h2{
+    text-align: left;
+}
+
+.redeem_above h3{
+    font-family: Poppins;
+    text-align: left;
+    font-size: 24px;
+    color: #242424;
+    padding: 0;
+    margin: 20px 0 -15px 0;
+}
