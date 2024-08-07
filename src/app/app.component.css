@@ -12,3 +12,8 @@
 .maindiv{
     background-image: url(/images/Background_Image.jpg);
 }
+.navbardesign{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
